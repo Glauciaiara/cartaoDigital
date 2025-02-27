@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, Open Sans;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cartao {
+    background-color: #2C3E50;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    background-color: #f39c12;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto 20px auto;
+}
+
+.foto img {
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* titulo e subtitulo */
+
+h1 {
+    font-size: 24px;
+    letter-spacing: 6.84px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+    color: #BDC3C7;
+    margin-bottom: 20px;
+    letter-spacing: 8.5px;
+    text-transform: uppercase;
+}
+
+/* botoes */
+
+.botao-componente {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    
+}
+
+.botao {
+    display: block;
+    background-color: #f39c12;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px auto;
+    width: 60%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #e67e22;
+}
+
+/* Estilos das seções */
+.secao {
+    padding: 60px 20px;
+    background-color: #2C3E50;
+    color: white;
+    min-height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao h2 {
+    font-size: 16px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.secao p {
+    font-size: 16px;
+    color: #ECF0F1;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    text-align: justify;
+    text-transform: lowercase;
+}
+
+.descricao_label {
+    width: 100%;
+    text-align: start;
+    justify-content: start;
+    display: flex;
+}
+
+/* seção contatos */
+.contato-icones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.icone {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    /* height: 50px; */
+    transition: transform 0.10s ease;
+}
+
+.icone:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
